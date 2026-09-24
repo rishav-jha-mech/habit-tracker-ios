@@ -12,9 +12,10 @@ Track daily habits, mark them done, and see a streak count, a GitHub style activ
 
 ## Screenshots
 
-<p float="left">
+<div align="center">
   <img src="screenshots/habits-list.png" width="250" />
-</p>
+  <img src="screenshots/habit-detail.png" width="250" />
+</div>
 
 ## What I learned
 
