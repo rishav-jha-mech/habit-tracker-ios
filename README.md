@@ -17,14 +17,6 @@ Track daily habits, mark them done, and see a streak count, a GitHub style activ
   <img src="screenshots/habit-detail.png" width="250" />
 </div>
 
-## What I learned
-
-<!-- fill in after building -->
-
-## What I'd do differently
-
-<!-- fill in after building -->
-
 ## License
 
 MIT, see [LICENSE](LICENSE).
