@@ -56,13 +56,18 @@ private struct HabitRow: View {
             }
             .buttonStyle(.plain)
 
-            VStack(alignment: .leading) {
+            VStack(alignment: .leading, spacing: 6) {
                 Text(habit.name)
                 Text("\(habit.currentStreak) day streak")
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }
+
+            Spacer()
+
+            HeatmapView(completions: habit.completions, weeks: 6)
         }
+        .padding(.vertical, 4)
     }
 }
 
